@@ -45,7 +45,8 @@ Push this repo to GitHub, then Render > New > Blueprint > select the repo. Set t
 MIT (see `LICENSE`). The product data in `data/catalogue.csv` is derived from third-party public datasets and keeps the license of its sources.
 
 ## Data and limitations (honest notes)
-- The catalogue (about 14k products) comes from public Flipkart and Myntra listing datasets (a past snapshot). Prices are **not live**, and there are no product photos. Check each dataset's license before reuse.
-- Fashion listings have no rating data, so the rating rule shows "not available" for them.
+- **Data source:** the product catalogue (about 14,000 listings) is built from publicly shared datasets of Flipkart product listings (mobiles, laptops, smartwatches, refrigerators, washing machines) and a Myntra product catalogue, downloaded from Kaggle. These datasets belong to their original authors and keep **their own licenses** (the MIT license above covers the AgentPay code only). The data is used here for a non-commercial hackathon demo. If you are an owner and want a file removed, please open an issue and it will be taken down.
+- Exact dataset links: _to be added_.
+- The data is a past snapshot, so prices are **not live**, and there are no product photos (the UI shows illustrated placeholders). Fashion listings have no rating data, so the rating rule shows "not available" for them.
 - Payments run in the PayPal **sandbox** at a fixed demo rate (INR 85 = USD 1). No real money moves, and nothing ships.
 - Orders and the audit log live in memory and a local JSON file (demo scope).

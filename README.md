@@ -1,5 +1,5 @@
 # AgentPay
-
+Demo video: https://youtu.be/wgbWQl4NXtM
 An AI shopping agent that finds a deal, enforces user-defined spending rules on the server, and pays through a
 permission-controlled **PayPal** workflow (authorize first, capture only after the user releases the payment).
 
